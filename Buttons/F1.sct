@@ -1,0 +1,22 @@
+﻿;----------------------------------------------------------------------
+; Script number = F1
+; Title         = "Load Laniakea surface"
+; Color         = "255,0,0"
+; Created on    : 2015-05-27 22:09 -05:00
+; Modified      : 2015-06-17 21:32 Z
+; Version       : 2.3
+; Created by    : 
+; Keywords      : 
+; Description   : 
+;----------------------------------------------------------------------
+;
+Scene Add Object LaniakeaSurface supergalactic <ShowPath>\Laniakea\models\SDvision_Laniakea_surface_v001.obj
+Scene LaniakeaSurface Unit Mpc
+ButtonText "UNLOAD Laniakea"
+Scene Ambient 1 100
+Scene LaniakeaSurface Material emissive all  10 10 100 100
+Scene LaniakeaSurface Scale [0:0:0] 0.014756 0.014756 0.014756
+Scene view LaniakeaSurface 2 100
+STOP
+Scene Remove LaniakeaSurface
+ButtonText "LOAD Laniakea"

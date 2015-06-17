@@ -1,0 +1,24 @@
+﻿;----------------------------------------------------------------------
+; Script number = F25
+; Title         = "Laniakea Flowlines"
+; Color         = "255,0,0"
+; Created on    : 2006-06-12 12:42 -05:00
+; Modified      : 2015-06-17 21:33 Z
+; Version       : 2.3
+; Created by    : 
+; Keywords      : 
+; Description   : Adds a full-dome torus.
+;----------------------------------------------------------------------
+;
+
+	Scene Add Object "Laniakea" supergalactic "ShowPath\Laniakea\models\Laniakea_streamlines_Mpc_p05.vla"
+	Scene "Laniakea" View 1 100 
+	Scene "Laniakea" color 2 100 100 0
+	Scene "Laniakea" unit Mpc
+
+	ButtonText "End Laniakea"
+STOP
+	Scene "Laniakea" View 1 0
++1
+	Scene Remove "Laniakea"
+
