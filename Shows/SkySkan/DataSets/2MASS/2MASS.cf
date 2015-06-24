@@ -1,0 +1,46 @@
+## 2MASS redshift survey
+## Sky-Skan, Inc.
+## http://www.skyskan.com
+## File Authored by Mike Sperry
+## Use of this data is subject to the terms of the License.
+##
+## ========================================================================
+
+# tell Partiview where the data files are...
+filepath +:.:..:./data:./images
+
+# UNIT = MPC
+# -------------------------------------
+#
+# 2MASS Galaxies
+#
+# -------------------------------------
+
+
+## 2MASS Galaxies
+## -------------------------------------------------------------------------
+
+object g1=S2MRSGalaxies
+
+include 2MRS_FoG_DSDM.speck
+
+eval psize 4000
+eval points on
+eval ptsize 1 3
+eval polymin 1 8 
+eval lum const 1
+eval slum 0.0008
+
+eval polysize 0.5
+eval poly on
+eval labelmin 8
+eval laxes off
+eval labels off
+eval cmap rgb.cmap
+eval color clustnum -1 5000
+eval fast on
+
+eval see all
+eval off
+
+
