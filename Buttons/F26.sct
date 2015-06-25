@@ -1,0 +1,23 @@
+﻿;----------------------------------------------------------------------
+; Script number = F26
+; Title         = "Flowline animation"
+; Color         = "255,0,0"
+; Created on    : 2006-06-12 12:42 -05:00
+; Modified      : 2015-06-25 06:27 Z
+; Version       : 2.3
+; Created by    : 
+; Keywords      : 
+; Description   : Adds a full-dome torus.
+;----------------------------------------------------------------------
+;
+
+	Scene Add Object "Laniakea_anim" supergalactic "ShowPath\Laniakea\animation.cf"
+	Scene "Laniakea_anim" View 1 100 
+	Scene "Laniakea_anim" unit Mpc
+
+	ButtonText "End Laniakea flow"
+STOP
+	Scene "Laniakea_anim" View 1 0
++1
+	Scene Remove "Laniakea_anim"
+

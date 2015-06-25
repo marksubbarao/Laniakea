@@ -3,7 +3,7 @@
 ; Title         = "Laniakea Flowlines"
 ; Color         = "255,0,0"
 ; Created on    : 2006-06-12 12:42 -05:00
-; Modified      : 2015-06-18 18:36 Z
+; Modified      : 2015-06-25 06:30 Z
 ; Version       : 2.3
 ; Created by    : 
 ; Keywords      : 
@@ -13,7 +13,7 @@
 
 	Scene Add Object "Laniakea" supergalactic "ShowPath\Laniakea\models\Laniakea_streamlines_Mpc_p025.vla"
 	Scene "Laniakea" View 1 100 
-	Scene "Laniakea" color 2 100 100 0
+	Scene "Laniakea" color 2 100 100 50 20
 	Scene "Laniakea" unit Mpc
 
 	ButtonText "End Laniakea"
