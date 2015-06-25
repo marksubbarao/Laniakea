@@ -27,7 +27,7 @@ include 2MRS_FoG_DSDM.speck
 eval psize 4000
 eval points on
 eval ptsize 1 3
-eval polymin 1 8 
+eval polymin 1 8
 eval lum const 1
 eval slum 0.0008
 

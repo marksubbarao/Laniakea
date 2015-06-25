@@ -1,0 +1,24 @@
+﻿;----------------------------------------------------------------------
+; Script number = F49
+; Title         = "2MASS Dataset"
+; Color         = "255,0,0"
+; Created on    : 2015-06-23 14:10 -04:00
+; Modified      : 2015-06-23 18:14 Z
+; Version       : 2.4
+; Created by    : 
+; Keywords      : 
+; Description   : 2MASS redshift survey data, clustering and fingers of god removed by Mike Sperry, Sky Skan
+;----------------------------------------------------------------------
+;
+
+
+
+	Scene Add Object "2MRS" "sidereal" "<ShowPath>\SkySkan\DataSets\2MASS\2MASS.cf"
++1
+	Scene 2MRS unit mp
+
++5	Buttontext "STOP 2MRS"
+STOP
+	Scene 2MRS view 1 0 	
++1	Scene remove 2MRS
+
