@@ -1,0 +1,17 @@
+filepath +:.:./models
+object g1=flow
+ include Laniakea_animation.speck
+   include LCRS.speck
+   eval points on
+   eval psize 1000
+   eval ptsize 4 10
+   eval lum const 1
+   eval color rgb 0.0 1.0 1.0
+   eval poly on    
+   eval polysize .0003
+   eval polysides 4  
+   eval polymin 0.01 512  
+   eval alpha 0.5   
+
+
+ 
